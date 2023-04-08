@@ -1,0 +1,7 @@
+@mixin textLinesCount($linesCount: 1) {
+	-webkit-box-orient: vertical;
+	display: -webkit-box;
+	-webkit-line-clamp: $linesCount;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

@@ -1,0 +1,124 @@
+.sidebar-nav {
+  .nav {
+    max-width: 273px;
+  }
+
+  .nav-link {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: $secondary;
+    border-radius: 8px;
+    font-weight: 700;
+
+    &.active {
+      color: $white;
+      background-color: $primary;
+
+      path {
+        fill: currentColor;
+      }
+    }
+  }
+}
+
+$border-color: #EBEBEB;
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .btn {
+    padding: 5px 14px 7px 14px;
+    color: $dark;
+    border-color: $border-color;
+    border-width: 2px;
+
+    &:hover,
+    &:active {
+      background-color: transparent;
+    }
+
+    &:active {
+      color: $dark;
+      border-color: $border-color;
+    }
+
+    &:last-of-type {
+      border-left-color: transparent;
+    }
+
+    &.active {
+      color: $white;
+      background-color: $dark;
+      border-color: $dark;
+    }
+  }
+}
+
+$border-radius: 8px;
+
+.sidebar-items {
+  .card {
+    border-color: $border-color;
+    border-radius: $border-radius;
+  }
+
+  .card-body {
+    padding-left: 24px;
+    padding-right: 24px;
+    color: $dark;
+  }
+
+  .card-footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: $white;
+    border-top-color: $border-color;
+    border-radius: 0 0 $border-radius $border-radius;
+
+    .btn {
+      &:hover,
+      &:active {
+        color: $white !important;
+      }
+    }
+  }
+
+  .card-footer-btns {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+
+  .card-text {
+    margin-bottom: 0;
+    color: $secondary;
+
+    &:not(.show-all) {
+      @include textLinesCount(2);
+    }
+  }
+
+  .card-img-top {
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+  }
+
+  .show-more {
+    display: none;
+    font: inherit;
+    font-weight: 500;
+    color: inherit;
+    letter-spacing: inherit;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+    padding: 0;
+    margin: 8px 0 0;
+  }
+}
