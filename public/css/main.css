@@ -1,4 +1,4 @@
-:root{--body-color: #292929;--dark: #292929;--white: #fff}.dark-mode{--dark: #fff;--white: #292929}@font-face{font-family:"Commissioner";font-weight:400;font-display:swap;src:url("../../fonts/Commissioner/Commissioner-Regular.ttf")}@font-face{font-family:"Commissioner";font-weight:500;font-display:swap;src:url("../../fonts/Commissioner/Commissioner-Medium.ttf")}@font-face{font-family:"Commissioner";font-weight:700;font-display:swap;src:url("../../fonts/Commissioner/Commissioner-Bold.ttf")}/*!
+:root{--body-color: #292929;--dark: #292929;--white: #fff}.dark-mode{--dark: #fff;--white: #292929}@font-face{font-family:"Commissioner";font-weight:400;font-display:swap;src:url("../fonts/Commissioner/Commissioner-Regular.ttf")}@font-face{font-family:"Commissioner";font-weight:500;font-display:swap;src:url("../fonts/Commissioner/Commissioner-Medium.ttf")}@font-face{font-family:"Commissioner";font-weight:700;font-display:swap;src:url("../fonts/Commissioner/Commissioner-Bold.ttf")}/*!
  * Bootstrap  v5.2.3 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
  * Copyright 2011-2022 Twitter, Inc.
